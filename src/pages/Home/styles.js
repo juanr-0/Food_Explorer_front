@@ -134,9 +134,6 @@ export const FoodWrapUp = styled.div`
  gap: 24px;
 `
 
-import styled from "styled-components";
-import { DEVICE_BREAKPOINTS } from "../../styles/deviceBreakpoints";
-
 export const PageContent = styled.div`
   display: flex;
   flex-direction: column;
