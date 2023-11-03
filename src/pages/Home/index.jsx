@@ -13,6 +13,7 @@ import {Carousel} from '../../components/Carousel';
 
 import {api} from '../../services/api'
 
+import panorama from '../../assets/foods.svg'
 
 export function Home() {
   const {user} = useAuth();
@@ -48,7 +49,7 @@ export function Home() {
 
       <PageContent>
         <Panorama>
-          <img src="src\assets\foods.svg" alt="polygon" />
+          <img src={panorama} alt="polygon" />
           <div className='text-panorama'>
           <h1>Sabores inigualáveis</h1>
           <p>Sinta o cuidado do preparo com ingredientes selecionados.</p>

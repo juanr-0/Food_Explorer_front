@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import React from 'react';
 import{CarouselContainer,Slide,BackButton,NextButton} from './styles.js';
+import arrowRight from '../../assets/arrowRight.svg'
+import arrowLeft from '../../assets/arrowLeft.svg'
+
 
 export const Carousel = ({ children}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -17,7 +20,7 @@ export const Carousel = ({ children}) => {
     <CarouselContainer>
       <BackButton>
         <button onClick={prevSlide}>
-          <img src="src\assets\arrowLeft.svg" alt="arrowLeft"/>
+          <img src={arrowLeft} alt="arrowLeft"/>
         </button>
       </BackButton>
 
@@ -31,7 +34,7 @@ export const Carousel = ({ children}) => {
 
       <NextButton>
         <button onClick={nextSlide}>
-          <img src="src\assets\arrowRight.svg" alt="arrowRight"/>
+          <img src={arrowRight} alt="arrowRight"/>
         </button>
       </NextButton>
     </CarouselContainer>
