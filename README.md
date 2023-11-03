@@ -1,6 +1,5 @@
  <<div align="center">
-  <h1><a href="https://food3xplorer.netlify.app/">Food Explorer - Rocketseat Explorer :rocket:</a></h1>
-  <img src="https://user-images.githubusercontent.com/106932234/204160165-1936c0db-539f-4a11-bf5e-1f3d3f789896.png" alt="Food Explorer Logo" width="550" height="99">
+  ![image](https://github.com/juanr-0/Food_Explorer_front/assets/110058876/3a171fc3-e6c4-4c4c-9d95-5352f53e0d25)
 </div>
 
 ## Sobre o Projeto
@@ -17,15 +16,17 @@ Obs.: As funcionalidades do carrinho e favoritos ainda estão sendo implementada
 
 A página inicial pode ser vista nas imagens abaixo:
 
-![Página Inicial](url_da_imagem)
-![Outra Imagem](url_da_outra_imagem)
+![image](https://github.com/juanr-0/Food_Explorer_front/assets/110058876/39f957d7-57d6-4914-96a9-ee4ae1137cf8)
+
+![image](https://github.com/juanr-0/Food_Explorer_front/assets/110058876/8579f2a9-b02a-4be6-807b-bac6251063e8)
+
 
 ## Tecnologias
 
 Nesse projeto foram utilizadas as seguintes tecnologias:
 
 - [ReactJs](https://reactjs.org)
-- [@phosphor-icons/react]()
+- [@phosphor-icons/react](https://phosphoricons.com)
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com)
 - [Vite](https://vitejs.dev/)
@@ -35,9 +36,9 @@ Nesse projeto foram utilizadas as seguintes tecnologias:
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [SQLite](https://www.sqlite.org/index.html)
 - [BCryptjs](https://www.npmjs.com/package/bcryptjs)
-- [cookie-parser]()
-- [express-async-errors]()
-- [pm2]()
+- [cookie-parser](https://www.npmjs.com/package/cookie-parser)
+- [express-async-errors](https://www.npmjs.com/package/express-async-errors)
+- [pm2](https://pm2.keymetrics.io)
 - [multer](https://www.npmjs.com/package/multer)
 - [cors](https://www.npmjs.com/package/cors)
 - [axios](https://www.npmjs.com/package/axios)
@@ -50,7 +51,7 @@ Nesse projeto foram utilizadas as seguintes tecnologias:
 Você pode baixar o arquivo compactado ou clonar o projeto para o diretório desejado.
 
 ```bash
-$ git clone
+$ git clone https://github.com/juanr-0/API_Food_Explorer.git
 ```
 ___
 
@@ -61,7 +62,7 @@ ___
   PORT=
 
 # Abre diretamente a pasta no vsCode ou navegue até o diretório do BackEnd utilizando o comando no terminal
-$ cd foodExplorer
+$ cd API_Food_Explorer
 
 # Utilize o instalador de pacotes para instalar as dependências necessárias
 $ npm install
@@ -73,8 +74,11 @@ ___
 
 #### Executando o frontend
 ```bash
+
 # Abre diretamente a pasta no vsCode ou navegue até o diretório do frontend utilizando o comando no terminal
-$ cd food-explorer-frontend
+$ git clone https://github.com/juanr-0/Food_Explorer_front.git
+
+$ cd Food_Explorer_front
 
 # Utilize o instalador de pacotes para instalar as dependências necessárias
 $ npm install
@@ -100,7 +104,7 @@ O deploy do BackEnd foi feito no Netlify.
 
 ___
 <br>
-Depois de executar todas as etapas aguarde um pouco para que o backend inicie e utilize a aplicação.
+ Depois de executar todas as etapas aguarde um pouco para que o backend inicie e utilize a aplicação.
 <br>
 
-[O site encontra-se hospedado aqui]()
+[O site encontra-se hospedado aqui](https://quiet-zuccutto-0eff04.netlify.app)
